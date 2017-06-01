@@ -1,1 +1,21 @@
-#
+# robots.txt 
+
+User-agent: *
+
+# Directories
+Disallow: /cgi-bin/
+Disallow: /trackback/
+Disallow: /comment-page-
+
+# Files
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# Paths (not clean urls)
+Disallow: /?s=*
+Disallow: /*.php$
+
+# custom removes
+
+#Sitemap: https://www.blowoutandgo.xyz/sitemap.xml
